@@ -2,8 +2,8 @@
 """This is the base(mdoel) class for the project"""
 
 import models
-from datetime import datetime
 from uuid import uuid4
+from datetime import datetime
 
 
 class BaseModel():
