@@ -19,7 +19,7 @@ class BaseModel():
 
     def __init__(self):
         """Initializes the base model"""
-        self.id = str(uuid4)
+        self.id = str(uuid4())
         self.created_at = datetime.today()
         self.updated_at = datetime.today()
 
